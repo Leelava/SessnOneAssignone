@@ -1,0 +1,10 @@
+//Task1: Check whether the /user/acadgild  dir exists.If it doesnot exist create /user/acadgild/hadoop//
+
+[acadgild@localhost ~]$ hadoop fs -ls /user/acadgild
+17/06/07 18:20:45 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Found 4 items
+drwxr-xr-x   - acadgild supergroup          0 2015-11-20 11:46 /user/acadgild/Pictures
+drwxr-xr-x   - acadgild supergroup          0 2017-05-29 20:26 /user/acadgild/hadoop
+drwxr-xr-x   - acadgild supergroup          0 2015-11-17 02:03 /user/acadgild/oozie-acad
+drwxr-xr-x   - acadgild supergroup          0 2015-11-17 02:00 /user/acadgild/share
+[acadgild@localhost ~]$ 
